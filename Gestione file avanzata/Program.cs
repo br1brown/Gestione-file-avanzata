@@ -1,0 +1,21 @@
+using GestioneFileAvanzata.BaseDati;
+
+namespace Gestione_file_avanzata
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            DB.BASE = "json.json";
+
+            //Application.Run(new Dashboard());
+        }
+    }
+}

@@ -15,7 +15,7 @@ namespace Gestione_file_avanzata
             ApplicationConfiguration.Initialize();
             DB.BASE = "json.json";
 
-            //Application.Run(new Dashboard());
+            Application.Run(new Cruscotto());
         }
     }
 }
